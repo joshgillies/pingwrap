@@ -1,0 +1,8 @@
+{
+    "name"        : "pingwrap"
+  , "version"     : "0.0.1"
+  , "homepage"    : "https://github.com/tehlulz/ping"
+  , "description" : "Small wrapper to ping servers"
+  , "repository"  : "git@github.com:tehlulz/pingwrap.git"
+  , "author"      : "Brendan Scarvell <bscarvell@gmail.com>"
+}
