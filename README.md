@@ -1,22 +1,24 @@
 ## Node.js Ping utility
-   A easy to use utility for node.js to send ping requests
+
+A easy to use utility for node.js to send ping requests
 
 ##Installation
 
-Make sure you have the latest node, coffee-script and npm installed. To run:
+Install via npm
 
-    $ coffee app.coffee
+    $ npm install pingwrap
 
-For those coffee haters, I have compiled it to native javascript. To run:
+##Development
 
-    $ node app.js
+Make sure you have the latest node, coffee-script and npm installed.
 
+The pingwrap source is located in src/ping.coffee
 
 ## Usage
 
-First include it to your application
+First require it in your application
 
-    var ping = require('./lib/ping');
+    var ping = require('pingwrap');
 
 You can then call the ping function by passing it two arguments:
 
@@ -26,7 +28,7 @@ You can then call the ping function by passing it two arguments:
 ## Example:
 
     sys = require('util');
-    ping = require('./lib/ping');
+    ping = require('pingwrap');
 
     ping('google.com', function(error, stdout, stderr) {
       return sys.puts(stdout);

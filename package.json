@@ -1,8 +1,15 @@
 {
-    "name"        : "pingwrap"
-  , "version"     : "0.0.1"
-  , "homepage"    : "https://github.com/tehlulz/pingwrap"
-  , "description" : "Small wrapper to ping servers"
-  , "repository"  : "git@github.com:tehlulz/pingwrap.git"
-  , "author"      : "Brendan Scarvell <bscarvell@gmail.com>"
+  "author": "Brendan Scarvell <bscarvell@gmail.com>",
+  "name": "pingwrap",
+  "description": "Small wrapper to ping servers",
+  "homepage": "https://github.com/bscarvell/pingwrap",
+  "version": "0.0.1",
+  "main": "lib/ping.js",
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bscarvell/pingwrap.git"
+  }
 }
